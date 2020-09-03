@@ -1,0 +1,28 @@
+{
+  "name": "serverImagesMulterNode",
+  "version": "1.0.0",
+  "description": "- Images in Nodejs with Multer",
+  "main": "index.js",
+  "scripts": {
+    "dev": "fuser -k 4000/tcp & nodemon src/index.js",
+    "start": "fuser -k 4000/tcp & node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anbreaker/serverImagesMulterNode.git"
+  },
+  "keywords": [],
+  "author": "anbreaker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anbreaker/serverImagesMulterNode/issues"
+  },
+  "homepage": "https://github.com/anbreaker/serverImagesMulterNode#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "uuid": "^8.3.0"
+  }
+}
